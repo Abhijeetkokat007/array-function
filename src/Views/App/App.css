@@ -38,3 +38,11 @@ body{
     color: aliceblue;
     
 }
+.tasks-container{
+    height: 420px;
+    overflow-y: scroll;
+  }
+  
+  .tasks-container::-webkit-scrollbar {
+    width: 5px;
+  }

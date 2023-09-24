@@ -33,7 +33,7 @@ function App() {
         <h2 className="heading">Top 12 Best IT Company </h2>
 
 
-      <div>
+      <div className="tasks-container">
         {contact.map((contact,index)=>{
           const {  name, mobile} = contact;
           return <ContactCard key={index} name={name} mobile={mobile} />
