@@ -1,0 +1,18 @@
+.card-container{
+    display: inline-block;
+    margin: 0px auto;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    border: 1px solid #ffe6b3;
+    border: 1px solid #f8bd48;
+    
+    border-radius: 10px;
+}
+.number{
+    color: rgb(178, 179, 180);
+}
+.card-heading{
+    color: rgb(220, 219, 219);
+    /* color: #ffd786; */
+}
