@@ -7,6 +7,7 @@ export default function ContactCard({name, mobile}){
         <div className="card-container">
             <h2 className="card-heading">{name}</h2>
             <span className="number">{mobile}</span>
+            <h1></h1>
         </div>
     )
 }
